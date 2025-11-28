@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Nadhif Portfolio</title>
+</head>
+
+<body>
+   
+      <nav class="bottom-nav">
+        <ul class="bottom-nav__list">
+
+          <li>
+            <a href="#home" class="bottom-nav__link active" title="Home">
+              <i class='bx bx-home'></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="bottom-nav__link" title="About Me">
+              <i class='bx bx-user'></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#services" class="bottom-nav__link" title="Services">
+              <i class='bx bx-briefcase'></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#projects" class="bottom-nav__link" title="Projects">
+              <i class='bx bx-award'></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#contact" class="bottom-nav__link" title="Contact Me">
+              <i class='bx bx-send'></i>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+    <main class="main">
+        <header class="site-header">
+            <div class="container header-content">
+                <a href="#home" class="site-logo">Nadhif</a>
+
+                <i class='ri-moon-line change-theme' id="theme-button"></i>
+            </div>
+        </header>
+
+        <section class="home section" id="home">
+            <div class="profile__container container grid">
+                <div class="profile__data">
+                    <div class="profile__image">
+                        <svg class="profile__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="maskBlob" mask-type="alpha">
+                                <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                               170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                               447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                               587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                               438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+                            </mask>
+                            <g mask="url(#maskBlob)">
+                                <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                               170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                               447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                               587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                               438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+
+                                <rect x="37" width="476" height="630" fill="url(#pattern0)" />
+                            </g>
+
+                            <rect x="37" width="476" height="300" fill="url(#pattern1)" />
+
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)" />
+                                </pattern>
+
+                                <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
+                                </pattern>
+
+                                
+                                <image class="profile__img" id="imageBlob" width="640" height="925"
+                                    href="assets/img/ndf.png" />
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3 class="profile__subtitle">Hello, <span>I'm</span></h3>
+                    <h2 class="profile__title">Nadhif Fayruz Ramadhan</h2>
+                    <h3 class="profile__profession">Marketing digitaler | programmer</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/muslim_pbg?igsh=emszODl4ZTFrdm9v" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.shutterstock.com/g/nadhif+fr" target="_blank" class="profile__social-link">
+                            <i class="ri-image-line"></i>
+                        </a>
+                        <a href="https://lynk.id/nadhiffyrz" target="_blank" class="profile__social-link">
+                        <i class="ri-link-m"></i>  
+                        </a>
+                        </a>
+                        <a href="https://github.com/nadhiffyrzaab-hash" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@NadhifFr" target="_blank" class="profile__social-link">
+                            <i class="ri-youtube-line"></i>
+                        </a>
+                    </ul>
+
+                    <p class="profile__description">Portofolio ini berisi ringkasan karya dan tugas terbaik saya selama belajar di SMA IT HSI Boarding School,
+                        mencakup Tahfidz, Bahasa inggris, Kitab, IT serta beberapa proyek kreativitas seperti poster dan video. 
+                        Portofolio ini menjadi bukti perkembangan dan usaha saya dalam belajar..</p>
+                </div>
+
+
+
+                    <div class="profile__buttons-small">
+                        
+                        <a href="https://wa.me/6285883852770/"
+                            target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                       
+                        <a href="https://m.me/" target="_blank" class="button button__small button__gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+                        
+                        <a href="mailto:nadhiffr300@gmail.com" target="_blank" class="button button__small button__gray">
+                            <i class="ri-mail-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About <span>Me</span></h2>
+
+            <div class="about__container container grid">
+                <div class="about__image">
+                    <svg class="about__blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBorder" mask-type="alpha">
+                            <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
+                           171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
+                           448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
+                           270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
+                           439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black" />
+                        </mask>
+                        <g mask="url(#maskBorder)">
+                            <rect x="37" width="476" height="630" fill="url(#pattern2)" />
+
+                            <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
+                           192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
+                           580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
+                           40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
+                           175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black"
+                                stroke-width="10" />
+                        </g>
+
+                        <rect x="37" width="476" height="300" fill="url(#pattern3)" />
+
+                        <defs>
+                            <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)" />
+                            </pattern>
+
+                            <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
+                            </pattern>
+
+                            
+                            <image class="about__img" id="imageBorder" width="640" height="940"
+                                href="assets/img/ndf.png" />
+                        </defs>
+                    </svg>
+                </div>
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class="ri-book-line about__icon "></i>
+                            <h3 class="about__title">HSI Student</h3>
+                            <span class="about__subtitle">2 Years learning</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="ri-briefcase-line about__icon"></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">10+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="ri-customer-service-line about__icon"></i>
+                            <h3 class="about__title">Service</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                       <b>saya Nadhif Fayruz Ramadhan</b>, seorang pelajar di <b>SMA IT HSI</b> yang senang belajar hal baru, 
+                       terutama di bidang <b>IT</b>, <b>bahasa inggris</b>, <b>konten kreatif</b>, <b>Kitab</b>, dll. Saya aktif membuat proyek tugas seperti poster,
+                        video, coding, dan tahfidz untuk portofolio pembelajaran saya.
+                        Saya berkomitmen untuk terus berkembang dan menghasilkan karya yang bermanfaat.
+                    </p>
+
+                   <a href="mailto:nadhiffayruzr@gmail.com?subject=Halo" class="button button__ghost" target="_self">
+                    Let's Talk </a>
+                </div>
+            </div>
+        </section>
+       <section class="experience section" id="experience">
+  <div class="container">
+
+    <h3 class="section-title">My Experience</h3>
+
+
+    <!-- My School -->
+    <div class="experience-section">
+      <div class="experience-title-wrapper">
+        <i class="ri-building-line experience__icon"></i>
+        <h2 class="experience-title">My School</h2>
+      </div>
+
+      <div class="experience-item">
+        <h3>TK Melati</h3>
+        <span>07/13 - 08/15</span>
+        <p>Saya memulai pendidikan formal sejak TK, kemudian saya disitu mendapatkan banyak sekali pengalaman berharga yang membentuk dasar pendidikan saya.</p>
+      </div>
+
+      <div class="experience-item">
+        <h3>MI Bait Qur'any</h3>
+        <span>07/15 - 08/21</span>
+        <p>Saya memulai pendidikan formal setelah TK, kemudian saya disitu mendapatkan banyak sekali pengalaman berharga yang membuat saya bermula menjadi penghafal Al-Qur’an.</p>
+      </div>
+
+      <div class="experience-item">
+        <h3>Ma'had Tahfidz IDN</h3>
+        <span>07/21 - 08/24</span>
+        <p>Saya memulai untuk mencoba menghafal Al-Qur'an semampu yang saya bisa dan akhirnya saya mampu menghafal 18 juz.</p>
+      </div>
+
+      <div class="experience-item">
+        <h3>SMA IT HSI Boarding School</h3>
+        <span>07/24 - 11/25</span>
+        <p>Saya memulai pendidikan IT, Bahasa Inggris, dan Kitab-Kitab. Disini sangat menambah wawasan karena sebelumnya saya tidak pernah belajar IT.</p>
+      </div>
+    </div>
+
+    
+    <div class="experience-section">
+      <div class="experience-title-wrapper">
+        <i class="ri-building-line experience__icon"></i>
+        <h2 class="experience-title">Teacher of TPQ</h2>
+      </div>
+
+      <div class="experience-item">
+         <i class="ri-user-star-line services__icon"></i>
+        <h3>TPA Darul Athfal Teacher</h3>
+        <span>10/25 - Present</span>
+        <p>Saya mengajar sebagai guru TPQ dengan fokus pada pembelajaran Al-Qur’an, tahsin, dan dasar-dasar ibadah. 
+        Selama mengajar, saya membimbing anak-anak dalam membaca Al-Qur’an dengan benar, membangun karakter islami, serta menciptakan suasana belajar yang nyaman dan menyenangkan. 
+        Pengalaman ini membantu saya melatih kesabaran, komunikasi, dan kemampuan memimpin kelas.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  </div>
+</section>
+
+       
+        <section class="services section" id="services">
+            <span class="section__subtitle">My Services</span>
+            <h2 class="section__title">What can <span>I do ?</span></h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-layout-3-line services__icon"></i>
+
+                    <h3 class="services__title">making Digital product</h3>
+
+                    <p class="service__description">Membuat berbagai produk digital seperti poster, banner, carousel,
+                         dan konten visual sederhana dengan desain yang rapi dan kreatif.</p>
+                </article>
+                <article class="services__card">
+                    <i class="ri-user-star-line services__icon"></i>
+
+                    <h3 class="services__title">TPQ teacher</h3>
+
+                    <p class="service__description">Mengajar bacaan Al-Qur’an, tahsin,
+                         dan dasar-dasar ibadah sambil membimbing anak-anak dalam suasana belajar yang positif.</p>
+                </article>
+                <article class="services__card">
+                    <i class="ri-pen-nib-line services__icon"></i>
+
+                    <h3 class="services__title">UI/UX Designer</h3>
+
+                    <p class="service__description">Mendesain tampilan web atau
+                         aplikasi sederhana dengan fokus pada tata letak, kejelasan visual, dan pengalaman pengguna.</p>
+                </article>
+            </div>
+        </section>
+        <section class="filters container" id="projects">
+
+    
+    <ul class="filters__content">
+        <button class="filters__button filter-tab-active" data-target="#projects-tab">
+            Projects
+        </button>
+        <button class="filters__button" data-target="#skills-tab">
+            Skills
+        </button>
+    </ul>
+
+    
+    <div class="filters__sections">
+
+        
+        <div class="projects__wrapper" data-content id="projects-tab">
+
+            <div class="lesson-block">
+                <h2 class="section-title">My <span>English</span></h2>
+
+                <div class="projects__content grid">
+                    <article class="projects__card">
+                        <img src="assets/img/english.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Bahasa inggris</span>
+                                <h3 class="projects__title">poster Vocabulary</h3>
+                                <a href="https://drive.google.com/file/d/1e9RK-5mOQ-8GtJhxU2aRWozpo_Q3Pwyb/view?usp=sharing" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/english2.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Bahasa inggris</span>
+                                <h3 class="projects__title">Poster Grammar</h3>
+                                <a href="https://drive.google.com/file/d/1Ta-ENYsue3G8DqF64bJrysaDB2-9zha8/view?usp=sharing" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/english3.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Bahasa inggris</span>
+                                <h3 class="projects__title">Bullying Video</h3>
+                                <a href="https://drive.google.com/file/d/16Oa30eRrp_rZk3MA77Ww8Uy36JZTq-x2/view?usp=sharing" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+            <h2 class="section-title">My <span>IT</span></h2>
+            <div class="projects__content grid">
+                <article class="projects__card">
+                        <img src="assets/img/IT1.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">IT</span>
+                                <h3 class="projects__title">Traffic lamp</h3>
+                                <a href="https://github.com/nadhiffyrzaab-hash/Lampu-merah.git" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                                <a href=" https://nadhiffyrzaab-hash.github.io/Lampu-merah/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/IT2.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">IT</span>
+                                <h3 class="projects__title">Calculator</h3>
+                                <a href="https://github.com/nadhiffyrzaab-hash/kalkulator.git" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                                <a href=" https://nadhiffyrzaab-hash.github.io/kalkulator/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/IT3.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">IT</span>
+                                <h3 class="projects__title">Zakat Calculator</h3>
+                                <a href="https://github.com/nadhiffyrzaab-hash/Zakat-kalkulator.git" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                                <a href=" https://nadhiffyrzaab-hash.github.io/Zakat-kalkulator/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/IT4.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">IT</span>
+                                <h3 class="projects__title">Link to my canva portfolio</h3>
+                                <a href="https://nadhif-fayruz-r.my.canva.site/nadhif" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/IT5.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">IT</span>
+                                <h3 class="projects__title">Link to my youtube channel</h3>
+                                <a href="https://www.youtube.com/@NadhifFr" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+            </div>
+
+            <div class="lesson-block">
+                <h2 class="section-title">My <span>Nahwu design</span></h2>
+                <div class="projects__content grid">
+                    <article class="projects__card">
+                        <img src="assets/img/Kitab.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Nahwu</span>
+                                <h3 class="projects__title">Nahwu poster</h3>
+                                <a href="https://drive.google.com/drive/folders/1uIJTGBOMnrmhz3BulXhfOBxVJ2M0G00B?usp=drive_link" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div class="skills__content grid container" data-content id="skills-tab">
+            <div class="skills__main">
+                        <div class="skill__left">
+                            <h3 class="skills__title">Technical Skills</h3>
+                            <div class="skill__bar">
+                                <div class="info">
+                                    <p>Bahasa Inggris</p>
+                                    <p>80%</p>
+                                </div>
+                                <div class="bar">
+                                    <span class="english"></span>
+                                </div>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="info">
+                                    <p>IT</p>
+                                    <p>75%</p>
+                                </div>
+                                <div class="bar">
+                                    <span class="it"></span>
+                                </div>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="info">
+                                    <p>Kitab</p>
+                                    <p>92%</p>
+                                </div>
+                                <div class="bar">
+                                    <span class="kitab"></span>
+                                </div>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="info">
+                                    <p>Tahfidz</p>
+                                    <p>100%</p>
+                                </div>
+                                <div class="bar">
+                                    <span class="tahfidz"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill__right">
+                            <h3 class="skills__title">Professional Skills</h3>
+                            <div class="professional">
+                                <div class="box">
+                                    <div class="circle" data-dots="80" data-percent="90"></div>
+                                    <div class="text">
+                                        <big>90%</big>
+                                        <small>Kerja sama</small>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="circle" data-dots="80" data-percent="80"></div>
+                                    <div class="text">
+                                        <big>80%</big>
+                                        <small>kraetifitas</small>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="circle" data-dots="80" data-percent="55"></div>
+                                    <div class="text">
+                                        <big>55%</big>
+                                        <small>projek</small>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="circle" data-dots="80" data-percent="70"></div>
+                                    <div class="text">
+                                        <big>70%</big>
+                                        <small>komunikasi</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <div class="thanks-wrapper">
+
+    <h2 class="thanks-title">Terima Kasih</h2>
+</div>
+
+
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <span class="section__subtitle">Get in touch</span>
+                    <h2 class="section__title">Contact <span>Me</span></h2>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="Insert your name" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Email</label>
+                            <input type="email" placeholder="Insert your email" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Project</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your project"
+                                class="contact__form-input"></textarea>
+                        </div>
+                        <div class="contact__form-button">
+                            <button class="button">Send Message</button>
+                        </div>
+                    </form>
+
+                    <div class="contact__social grid">
+                        <a href="https://www.instagram.com/muslim_pbg?igsh=emszODl4ZTFrdm9v" class="contact__social-link">
+                            <i class="ri-instagram-line"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://wa.me/6285883852770/" class="contact__social-link">
+                            <i class="ri-whatsapp-line"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span class="footer__copy">
+            Copyright &#169; 2022 - 2025 ndffr. All Rights Reserved.
+        </span>
+    </footer>
+
+    
+    <a href="#home" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+   
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</
